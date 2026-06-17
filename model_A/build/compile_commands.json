@@ -1,0 +1,137 @@
+[
+   {
+      "arguments": [
+         "gfortran",
+         "-c",
+         ".\\.\\src\\phase_field_mod.f90",
+         "-fimplicit-none",
+         "-Werror=implicit-interface",
+         "-ffree-form",
+         "-J",
+         "build\\gfortran_46B186824249A86E",
+         "-Ibuild\\gfortran_46B186824249A86E",
+         "-o",
+         "build\\gfortran_46B186824249A86E\\object_oriented_programming\\src_phase_field_mod.f90.o"
+      ],
+      "directory": "C:\\Users\\Shahid\\Desktop\\c++\\object_oriented_programming",
+      "file": ".\\.\\src\\phase_field_mod.f90"
+   },
+   {
+      "arguments": [
+         "gfortran",
+         "-c",
+         "app\\main.f90",
+         "-fimplicit-none",
+         "-Werror=implicit-interface",
+         "-ffree-form",
+         "-J",
+         "build\\gfortran_46B186824249A86E",
+         "-Ibuild\\gfortran_46B186824249A86E",
+         "-o",
+         "build\\gfortran_46B186824249A86E\\object_oriented_programming\\app_main.f90.o"
+      ],
+      "directory": "C:\\Users\\Shahid\\Desktop\\c++\\object_oriented_programming",
+      "file": "app\\main.f90"
+   },
+   {
+      "arguments": [
+         "gfortran",
+         "-c",
+         ".\\.\\src\\time_integration.f90",
+         "-fimplicit-none",
+         "-Werror=implicit-interface",
+         "-ffree-form",
+         "-J",
+         "build\\gfortran_46B186824249A86E",
+         "-Ibuild\\gfortran_46B186824249A86E",
+         "-o",
+         "build\\gfortran_46B186824249A86E\\object_oriented_programming\\src_time_integration.f90.o"
+      ],
+      "directory": "C:\\Users\\Shahid\\Desktop\\c++\\object_oriented_programming",
+      "file": ".\\.\\src\\time_integration.f90"
+   },
+   {
+      "arguments": [
+         "gfortran",
+         "-c",
+         ".\\.\\src\\output_results.f90",
+         "-fimplicit-none",
+         "-Werror=implicit-interface",
+         "-ffree-form",
+         "-J",
+         "build\\gfortran_46B186824249A86E",
+         "-Ibuild\\gfortran_46B186824249A86E",
+         "-o",
+         "build\\gfortran_46B186824249A86E\\object_oriented_programming\\src_output_results.f90.o"
+      ],
+      "directory": "C:\\Users\\Shahid\\Desktop\\c++\\object_oriented_programming",
+      "file": ".\\.\\src\\output_results.f90"
+   },
+   {
+      "arguments": [
+         "gfortran",
+         "-c",
+         ".\\.\\src\\init_microstructure.f90",
+         "-fimplicit-none",
+         "-Werror=implicit-interface",
+         "-ffree-form",
+         "-J",
+         "build\\gfortran_46B186824249A86E",
+         "-Ibuild\\gfortran_46B186824249A86E",
+         "-o",
+         "build\\gfortran_46B186824249A86E\\object_oriented_programming\\src_init_microstructure.f90.o"
+      ],
+      "directory": "C:\\Users\\Shahid\\Desktop\\c++\\object_oriented_programming",
+      "file": ".\\.\\src\\init_microstructure.f90"
+   },
+   {
+      "arguments": [
+         "gfortran",
+         "-c",
+         ".\\.\\src\\laplace_evaluation.f90",
+         "-fimplicit-none",
+         "-Werror=implicit-interface",
+         "-ffree-form",
+         "-J",
+         "build\\gfortran_46B186824249A86E",
+         "-Ibuild\\gfortran_46B186824249A86E",
+         "-o",
+         "build\\gfortran_46B186824249A86E\\object_oriented_programming\\src_laplace_evaluation.f90.o"
+      ],
+      "directory": "C:\\Users\\Shahid\\Desktop\\c++\\object_oriented_programming",
+      "file": ".\\.\\src\\laplace_evaluation.f90"
+   },
+   {
+      "arguments": [
+         "gfortran",
+         "-c",
+         ".\\.\\src\\free_energy_derivative.f90",
+         "-fimplicit-none",
+         "-Werror=implicit-interface",
+         "-ffree-form",
+         "-J",
+         "build\\gfortran_46B186824249A86E",
+         "-Ibuild\\gfortran_46B186824249A86E",
+         "-o",
+         "build\\gfortran_46B186824249A86E\\object_oriented_programming\\src_free_energy_derivative.f90.o"
+      ],
+      "directory": "C:\\Users\\Shahid\\Desktop\\c++\\object_oriented_programming",
+      "file": ".\\.\\src\\free_energy_derivative.f90"
+   },
+   {
+      "arguments": [
+         "gfortran",
+         "-c",
+         ".\\.\\src\\create_grid.f90",
+         "-fimplicit-none",
+         "-Werror=implicit-interface",
+         "-ffree-form",
+         "-J",
+         "build\\gfortran_46B186824249A86E",
+         "-Ibuild\\gfortran_46B186824249A86E",
+         "-o",
+         "build\\gfortran_46B186824249A86E\\object_oriented_programming\\src_create_grid.f90.o"
+      ],
+      "directory": "C:\\Users\\Shahid\\Desktop\\c++\\object_oriented_programming",
+      "file": ".\\.\\src\\create_grid.f90"
+   }]
