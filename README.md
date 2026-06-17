@@ -16,7 +16,7 @@ In procedural programming, we use **variables** that hold values of intrinsic ty
 
 For procedures, procedural programming uses standalone subroutines and functions that are independent of any particular data type. These procedures must explicitly receive all required data through arguments. In object-oriented programming, procedures are bound to types and are called **methods**. These methods are declared inside the type definition and automatically have access to the object's data through a reference to the instance (typically called this or self).
 
-![submodule](images/procedure_vs_oop.svg)
+![procedure_vs_oop](images/Procedure_vs_OOP.svg)
 
 ### **Core Concepts**
 
