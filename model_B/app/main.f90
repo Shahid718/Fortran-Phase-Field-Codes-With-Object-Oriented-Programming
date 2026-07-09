@@ -31,8 +31,8 @@ program fd_ch
     
     do tsteps = 1, 2000
         call grid%free_energy_derivative(A=1.0)
-        call grid%laplace_evaluation
-        call grid%time_integration(dt=0.01, mobility=1.0, grad_coef=0.5)
+        call grid%laplace_evaluation(grad_coef=0.5)
+        call grid%time_integration(dt=0.01, mobility=1.0)
         
         ! Print progress every 1000 steps
         if (mod(tsteps, 1000) == 0) then
