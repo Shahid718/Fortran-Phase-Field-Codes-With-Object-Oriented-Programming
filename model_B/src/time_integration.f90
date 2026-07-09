@@ -14,8 +14,7 @@ contains
         
         this%dt = dt
         this%mobility = mobility
-        this%grad_coef = grad_coef
-        
+                
         ! Cahn-Hilliard time integration: dc/dt = M * laplacian(mu)
         ! where mu = df/dc - kappa*laplacian(c)
         do i = 1, this%Nx
