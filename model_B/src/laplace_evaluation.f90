@@ -12,6 +12,7 @@ submodule (phase_field_mod) laplace_evaluation_sub
 contains
     module procedure laplace_evaluation
         integer :: i, j, ip, im, jp, jm
+        this%grad_coef = grad_coef
         
         ! Compute Laplacian of concentration
         do i = 1, this%Nx
