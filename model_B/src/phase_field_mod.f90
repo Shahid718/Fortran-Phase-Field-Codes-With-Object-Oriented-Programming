@@ -50,13 +50,14 @@ module phase_field_mod
             real(4), intent(in) :: A
         end subroutine
         
-        module subroutine laplace_evaluation(this)
+        module subroutine laplace_evaluation(this,grad_coef)
             class(PhaseFieldGrid), intent(inout) :: this
+            real(4), intent(in) :: grad_coef
         end subroutine
 
-        module subroutine time_integration(this, dt, mobility, grad_coef)
+        module subroutine time_integration(this, dt, mobility)
             class(PhaseFieldGrid), intent(inout) :: this
-            real(4), intent(in) :: dt, mobility, grad_coef
+            real(4), intent(in) :: dt, mobility
         end subroutine
     end interface
 
